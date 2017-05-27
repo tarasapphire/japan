@@ -1,0 +1,155 @@
+body {
+	margin: 0px;
+}
+
+a {
+	display: inline-block;
+}
+
+header, .quote {
+	text-align: center;
+	color: white;
+	height: 500px;
+	background-color: black;
+	background-image: url(../images/header-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 200px;
+}
+
+.quote {
+	background-attachment: fixed black url(../images/quote-bg.jpg);
+}
+
+header p {
+	font-style: italic;
+}
+
+header h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: white;
+}
+
+header a {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid white;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+header a:hover {
+	background: white;
+	color: black;
+}
+
+.categories a {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid black;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+.categories a:hover {
+	background: black;
+	color: white;
+}
+
+
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+
+nav ul li {
+	display: inline;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	margin-right: 40px;
+}
+
+.logo {
+	color: red;
+	margin-right: 50px;
+}
+
+.categories {
+	text-align: center;
+}
+
+.categories ul {
+	padding: 0px;
+}
+
+.categories ul li {
+	width: 23%;
+	float: left;
+	list-style: none;
+	padding: 0 1%;
+}
+
+.categories img {
+	max-width: 100%;
+}
+
+
+
+.featured {
+	text-align: center;
+}
+
+.featured ul {
+	padding: 0px;
+}
+
+.featured ul li {
+	width: 30%;
+	float: left;
+	list-style: none;
+	padding: 0 1.5%;
+}
+
+.featured img {
+	max-width: 100%;
+}
+
+.featured h4 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	border: 5px solid black;
+	padding: 30px 30px;
+	text-decoration: none;
+}
+
+.featured h4 hover {
+	background: black;
+	color: white;
+}
+
+.quotes: {
+	clear: both;
+} 
+
+
+footer {
+	clear: both;
+	text-align: center;
+	background color: black;
+	color: white;
+	font-family: "Montserrat"
+	padding: 20px 0;
+}
+
+footer img {
+	width: 50px;
+	height: auto;
+}
